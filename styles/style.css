@@ -24,6 +24,23 @@ body{
     color: var(--cor-primaria);
 }
 
+.topheader {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;    
+}
+.topheader_link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--cor-secundaria);    
+    text-decoration: none;
+    padding: 0px 20px
+}
+
 .cabecalho{
     padding: 2% 0% 0% 15%;
 }
@@ -32,6 +49,7 @@ body{
     gap: 80px;
     justify-content: flex-start;
 }
+
 .cabecalho__menu__link{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -95,6 +113,16 @@ body{
 .logo_links{
     width: 32px;
     height: 32px;
+}
+.logo_links_topheader{
+    width: 20px;
+    height: 20px;    
+    padding: 0px 10px;
+    margin: 0px;    
+}
+.logo_site{
+    width: 118px;
+    height: 118px;
 }
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
