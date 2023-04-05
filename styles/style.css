@@ -15,7 +15,7 @@
 body{    
     height: 100vh; /*coloca a altura como 100% */
     box-sizing: border-box;
-    background-image: url("/fundo.jpg");
+    
     background-color: black;
     color: var(--cor-secundaria);
    
