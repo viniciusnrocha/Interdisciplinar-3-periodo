@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barbearia agendamento</title>
+        <link rel="shortcut icon" href="/assets/icones/beard.png">
+        <link rel="stylesheet" href="/styles/agendamento.css">
+        <link rel="stylesheet" href="/styles/style.css">
+    </head>
+    <body>
+        <header >
+            <div class="topheader">
+                <h3>imagem aqui Theusbarber</h3>
+                <nav>                                       
+                    <a class="topheader_link" href="#"><img src="/assets/icones/call.png" alt="logo telefone" class="logo_links_topheader">Telefone</a>
+                    <a class="topheader_link" href="#"><img src="/assets/icones/Map.png" alt="logo localizaçao" class="logo_links_topheader" >Endereço</a>
+                    <a class="topheader_link" href="#"> <img src="/assets/icones/lock.png" class="logo_links_topheader"> Login</a>                    
+                </nav>
+            </div>
+            <div class="cabecalho ">                
+                <nav class="cabecalho__menu">                   
+                    <a class="cabecalho__menu__link" href="/index.html">Home</a>
+                    <a class="cabecalho__menu__link" href="/html/sobremim.html">Sobre Mim</a>
+                    <a class="cabecalho__menu__link" href="/html/agendamento.html">Agendamento</a>
+                </nav>
+            </div>            
+        </header>
+        <div class="container">
+            <div class="card">
+                <div class="form__name">
+                    Formulario de agendamento
+                </div>
+                <div class="time__container">
+                    <div class="section">
+                        <div class="box">
+                            1
+                        </div><span>Data &amp; Hora</span>
+                    </div>
+                    <form action="" class="form__time">
+                        <div class="date">
+                            <label for="date">Data</label> <input id="date" type="date">
+                        </div>
+                        <div class="time">Hora</label> <input id="time" type="time">
+                        </div>                        
+                    </form>
+                </div>
+                <div class="message__container">
+                    <div class="section">
+                        <div class="box">
+                            2
+                        </div><span>Sua menssagem</span>
+                    </div>
+                    <textarea placeholder="Informe o tipo de serviço que será executado." cols="50" rows="5"></textarea>
+                </div>
+                <div class="contact__container">
+                    <div class="section">
+                        <div class="box">
+                            3
+                        </div><span>Informaçoes de Contato</span>
+                    </div>
+                    <form action="" class="form__contact">
+                        <div class="cname">
+                            <label for="cname">Nome Completo</label> <input placeholder="Seu nome aqui" id="cname" type="text">
+                        </div>
+                        <div class="cnum">
+                            <label for="cnum">WhatApp</label> <input placeholder="81 91234-5678" id="cnum" type="tel">
+                        </div>
+                        <div class="email">
+                            <label for="cemail">E-mail</label> <input placeholder="exemplo@email.com" id="cemail" type="email">
+                        </div>
+                    </form>
+                </div>
+                <div class="form__confirmation">
+                    <button>Finalizar agendamento</button>
+                </div>
+            </div>
+        </div>
+        <footer class="rodape">
+            <p>Desenvolvido por Vinicius</p>
+        </footer>        
+    </body>
+</html>
+

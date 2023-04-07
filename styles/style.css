@@ -10,7 +10,6 @@
     --cor-secundaria: #F2DAC2;
     --cor-terciaria: black;
     --cor-hover: #756E66;
-
 }
 body{    
     height: 100vh; /*coloca a altura como 100% */
@@ -57,7 +56,6 @@ body{
     color: var(--cor-primaria);    
     text-decoration: none;
 }
-
 
 .apresentacao{
     padding:4% 15%;

@@ -1,19 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:700,400,300);
+:root{
+  --cor-fonte-formulario: #47536A;
+  --cor-fonte:#977656;
+}
+
 html {
-  background-color: #E8F0FA;
+   
   font-family: "Oxygen", sans-serif;
 }
 
 .container {
   max-width: 60rem;
   margin: 0 auto;
+  height: 90%
 }
 
 .card {
   border-radius: 5px;
   max-width: 40rem;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 30px;
   min-height: 300px;
   background-color: #fff;
   font-weight: 700;
@@ -26,9 +32,9 @@ html {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   font-weight: 900;
-  background-color: #15A4FA;
+  background-color: var(--cor-primaria);
   padding: 20px;
-  color: #fff;
+  color: white;
   font-size: 1.2rem;
 }
 
@@ -37,7 +43,7 @@ html {
 }
 
 .form__time, .form__contact {
-  color: #47536A;
+  color: var(--cor-fonte-formulario);
   font-size: 0.7rem;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -66,7 +72,7 @@ html {
 }
 
 .section {
-  color: #47536A;
+  color: var(--cor-fonte-formulario);
 }
 .section .box {
   vertical-align: middle;
@@ -82,8 +88,8 @@ html {
   width: 20px;
   line-height: 20px;
   border-radius: 50px;
-  border: 1px solid #47536A;
-  background-color: #47536A;
+  border: 1px solid var(--cor-fonte-formulario);
+  background-color: var(--cor-fonte-formulario);
   text-align: center;
   color: #fff;
 }
@@ -97,46 +103,27 @@ textarea {
   font-weight: normal;
   padding: 5px;
   margin-top: 20px;
-  border: 1px solid #A4A9C5;
+  border: 1px solid var(--cor-fonte-formulario);
   border-radius: 3px;
   outline: none;
   transition: border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  color: #15A4FA;
+  color: var(--cor-fonte);
 }
 textarea:focus {
-  border-color: #15A4FA;
+  border-color: var(--cor-primaria);
 }
 textarea::-moz-placeholder {
   font-weight: 300;
-  color: #A9A9A9;
+  color: var(--cor-hover);
 }
 textarea:-ms-input-placeholder {
   font-weight: 300;
-  color: #A9A9A9;
+  color: var(--cor-hover);
 }
 textarea::placeholder {
   font-weight: 300;
-  color: #A9A9A9;
+  color: var(--cor-hover);
 }
-
-select {
-  cursor: pointer;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  display: block;
-  border: 1px solid #A4A9C5;
-  font-size: 0.8rem;
-  padding: 12px 10px;
-  background-color: transparent;
-  color: #15A4FA;
-  outline: none;
-  width: 60%;
-}
-select:active {
-  border-color: #15A4FA;
-}
-
 input {
   font-size: 0.8rem;
   font-weight: 700;
@@ -147,26 +134,26 @@ input {
   outline: none;
   padding: 10px;
   transition: border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  color: #15A4FA;
+  color: var(--cor-fonte);
 }
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px white inset;
-  -webkit-text-fill-color: #15A4FA;
+  -webkit-text-fill-color: var(--cor-fonte);
 }
 input:focus {
-  border-color: #15A4FA;
+  border-color: var(--cor-primaria);
 }
 input::-moz-placeholder {
   font-weight: 500;
-  color: #A9A9A9;
+  color: var(--cor-hover);
 }
 input:-ms-input-placeholder {
   font-weight: 500;
-  color: #A9A9A9;
+  color:var(--cor-hover);
 }
-input::placeholder {
+input::placeholder  {
   font-weight: 500;
-  color: #A9A9A9;
+  color: var(--cor-hover);
 }
 
 input[type=date] {
@@ -182,7 +169,7 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  background-color: #15A4FA;
+  background-color: var(--cor-primaria);
   border: 1px solid #DADDE8;
   color: #fff;
   padding: 18px;
@@ -194,8 +181,8 @@ button {
   margin-bottom: 20px;
 }
 button:hover {
-  background-color: #1293e1;
+  background-color: var(--cor-hover);
 }
 button:active {
-  background-color: #1083c8;
+  background-color: rgb(36, 233, 36);
 }
