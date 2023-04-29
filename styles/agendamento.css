@@ -4,12 +4,8 @@
   --cor-fonte:#977656;
 }
 
-html {
-   
-  font-family: "Oxygen", sans-serif;
-}
-
 .container {
+  font-family: "Oxygen", sans-serif;
   max-width: 60rem;
   margin: 0 auto;
   height: 90%
@@ -17,7 +13,7 @@ html {
 
 .card {
   border-radius: 5px;
-  max-width: 40rem;
+  max-width: 35rem;
   margin: 0 auto;
   margin-top: 30px;
   min-height: 300px;
@@ -61,7 +57,7 @@ html {
   width: 200px;
 }
 .form__time .time, .form__time .cnum, .form__contact .time, .form__contact .cnum {
-  margin-left: 20px;
+  margin-left: 0;
 }
 .form__time .timezone, .form__time .email, .form__contact .timezone, .form__contact .email {
   margin-top: 10px;
@@ -160,12 +156,11 @@ input[type=date] {
   text-transform: uppercase;
 }
 
-.form__confirmation {
-  padding: 10px 55px;
+.form__confirmation { 
+  padding: auto;
 }
-
 button {
-  font-size: 12px;
+  font-size: 0.75rem;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
@@ -177,7 +172,7 @@ button {
   outline: none;
   transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
-  left: 350px;
+  left: 50%;
   margin-bottom: 20px;
 }
 button:hover {
