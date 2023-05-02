@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theusbarber Sobre Mim</title>
+    <link rel="shortcut icon" href="../assets/icones/beard.png">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/agendamento.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="topheader">
+            <h3>imagem aqui Theusbarber</h3>
+            <nav>
+                <a class="topheader_link" href="#"><img src="../assets/icones/call.png" alt="logo telefone"
+                        class="logo_links_topheader">Telefone</a>
+                <a class="topheader_link" href="#"><img src="../assets/icones/Map.png" alt="logo localizaçao"
+                        class="logo_links_topheader">Endereço</a>
+                <a class="topheader_link" href="#"> <img src="../assets/icones/lock.png" class="logo_links_topheader">
+                    Login</a>
+            </nav>
+        </div>
+        <div class="cabecalho ">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="../index.html">Home</a>
+                <a class="cabecalho__menu__link" href="../html/sobremim.html">Sobre Mim</a>
+                <a class="cabecalho__menu__link" href="../html/agendamento.html">Agendamento</a>
+            </nav>
+        </div>
+    </header>
+    <section class="container login">
+        <div class="form-wrap">
+            <div class="tabs">
+                <h3 class="signup-tab"><a class="" href="#signup-tab-content">Sign Up</a></h3>
+                <h3 class="login-tab"><a href="#login-tab-content" class="active">Login</a></h3>               
+            </div><!--.tabs-->
+    
+            <div class="tabs-content">
+                <div id="signup-tab-content" class="">
+                    <form class="signup-form" action="" method="post">
+                        <input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
+                        <input type="text" class="input" id="user_name" autocomplete="off" placeholder="Nome de usuario">
+                        <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Senha">
+                        <input type="submit" class="button" value="Sign Up">
+                    </form><!--.login-form-->
+                    <div class="help-text">
+                        <p>Ao se inscrever, você concorda com nossos <a class="links__login" href="#">Termos de serviço.</a></p>
+                        
+                    </div><!--.help-text-->
+                </div><!--.signup-tab-content-->
+    
+                <div id="login-tab-content" class="active">
+                    <form class="login-form" action="" method="post">
+                        <input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email ou Node de usuario">
+                        <input type="password" class="input" id="user_pass_login" autocomplete="off" placeholder="Senha">
+                        <input type="checkbox" class="checkbox" id="remember_me">
+                        <label for="remember_me">Remember me</label>    
+                        <!-- <input type="submit" class="button" value="Login" id="login_button"> -->
+                        <a class="button" href="../html/agendamento.html">login</a>
+                    </form><!--.login-form-->
+                    
+                    <div class="help-text">
+                        <p><a href="#">Continuar conectado?</a></p>
+                    </div><!--.help-text-->
+                </div><!--.login-tab-content-->             
+
+            </div><!--.tabs-content-->
+        </div><!--.form-wrap-->   
+
+    </section>
+    <footer class="rodape">
+        <p>Desenvolvido por Vinicius</p>
+    </footer>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

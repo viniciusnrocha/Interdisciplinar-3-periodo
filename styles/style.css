@@ -14,10 +14,9 @@
 body{    
     height: 100vh; /*coloca a altura como 100% */
     box-sizing: border-box;
-    background: url(../assets/fundo.jpg);
-        
-    color: var(--cor-secundaria);
-   
+    background: url(../assets/fundo.jpg);        
+    color: var(--cor-secundaria); 
+    margin-bottom: 60px; /* ajusta o margin-bottom para não cobrir o footer */
 }   
 .titulo-destaque{
     color: var(--cor-primaria);
@@ -130,11 +129,10 @@ body{
     color: black;
     background-color: var(--cor-primaria);
     padding: 10px;
-    margin: 0px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 400;    
     position: fixed;
     bottom: 0;
     width: 100%;
