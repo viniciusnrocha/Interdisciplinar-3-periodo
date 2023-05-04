@@ -17,6 +17,9 @@ body{
     background: url(../assets/fundo.jpg);        
     color: var(--cor-secundaria); 
     margin-bottom: 60px; /* ajusta o margin-bottom para não cobrir o footer */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }   
 .titulo-destaque{
     color: var(--cor-primaria);
