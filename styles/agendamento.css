@@ -183,7 +183,15 @@ button:active {
   background-color: rgb(36, 233, 36);
 }
 
-@media(max-width: 1000px){
-
+@media(max-width: 600px){
+  .message__container textarea {
+    width: 100%;
+  }
+  .sec{
+    padding-top: 4%;
+    padding-right: 2%;
+    padding-bottom: 50px;
+    padding-left: 2%;
+}
   
 }
